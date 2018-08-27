@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		584D3E8521344DE700364BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584D3E8421344DE700364BB2 /* AppDelegate.swift */; };
 		584D3E8721344DE700364BB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584D3E8621344DE700364BB2 /* ViewController.swift */; };
-		584D3E8A21344DE700364BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584D3E8821344DE700364BB2 /* Main.storyboard */; };
 		584D3E8C21344DE800364BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584D3E8B21344DE800364BB2 /* Assets.xcassets */; };
 		584D3E8F21344DE800364BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584D3E8D21344DE800364BB2 /* LaunchScreen.storyboard */; };
+		584D3E97213458C000364BB2 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584D3E96213458C000364BB2 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		584D3E8121344DE700364BB2 /* Buttons Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttons Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		584D3E8421344DE700364BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		584D3E8621344DE700364BB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		584D3E8921344DE700364BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		584D3E8B21344DE800364BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		584D3E8E21344DE800364BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		584D3E9021344DE800364BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584D3E96213458C000364BB2 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				584D3E8421344DE700364BB2 /* AppDelegate.swift */,
 				584D3E8621344DE700364BB2 /* ViewController.swift */,
-				584D3E8821344DE700364BB2 /* Main.storyboard */,
 				584D3E8B21344DE800364BB2 /* Assets.xcassets */,
 				584D3E8D21344DE800364BB2 /* LaunchScreen.storyboard */,
 				584D3E9021344DE800364BB2 /* Info.plist */,
+				584D3E96213458C000364BB2 /* UIButtonExtension.swift */,
 			);
 			path = "Buttons Animation";
 			sourceTree = "<group>";
@@ -124,7 +124,6 @@
 			files = (
 				584D3E8F21344DE800364BB2 /* LaunchScreen.storyboard in Resources */,
 				584D3E8C21344DE800364BB2 /* Assets.xcassets in Resources */,
-				584D3E8A21344DE700364BB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,20 +136,13 @@
 			files = (
 				584D3E8721344DE700364BB2 /* ViewController.swift in Sources */,
 				584D3E8521344DE700364BB2 /* AppDelegate.swift in Sources */,
+				584D3E97213458C000364BB2 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		584D3E8821344DE700364BB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				584D3E8921344DE700364BB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		584D3E8D21344DE800364BB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
